@@ -63,7 +63,8 @@ Console.ReadLine();
         public static async Task<EmotionEnum> EmotionRequest()
         {
             EmotionEnum e = EmotionEnum.Neutral;
-            string imageFilePath = "C:\\Users\\Alissa\\Pictures\\Camera Roll\\testfoto_ " + counter + ".jpg";
+            string imageFilePath = Environment.ExpandEnvironmentVariables("C:\\Users\\%USERPROFILE%\\Pictures\\EmotionalRPG\\reaktion_0" + counter + ".jpg");
+            // string imageFilePath = "C:\\Users\\Alissa\\Pictures\\Camera Roll\\testfoto_ " + counter + ".jpg";
             VideoCapture capture = new VideoCapture();
             Bitmap image = capture.QueryFrame().Bitmap;
             capture.Dispose();
