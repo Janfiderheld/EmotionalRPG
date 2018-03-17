@@ -1,0 +1,6 @@
+C:\Users\IXE5KB\Documents\Hackathons\HEX\DialogTesting\DialogTesting\bin\Debug\DialogTesting.exe.config
+C:\Users\IXE5KB\Documents\Hackathons\HEX\DialogTesting\DialogTesting\bin\Debug\DialogTesting.exe
+C:\Users\IXE5KB\Documents\Hackathons\HEX\DialogTesting\DialogTesting\bin\Debug\DialogTesting.pdb
+C:\Users\IXE5KB\Documents\Hackathons\HEX\DialogTesting\DialogTesting\obj\Debug\DialogTesting.csprojResolveAssemblyReference.cache
+C:\Users\IXE5KB\Documents\Hackathons\HEX\DialogTesting\DialogTesting\obj\Debug\DialogTesting.exe
+C:\Users\IXE5KB\Documents\Hackathons\HEX\DialogTesting\DialogTesting\obj\Debug\DialogTesting.pdb
