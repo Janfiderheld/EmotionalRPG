@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: ba3112bad5c570540bcb3d84d2891847
+timeCreated: 1521283162
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Component_1_1
+    100002: DrawCall10_1_1
+    100004: DrawCall11_1_1
+    100006: DrawCall_1_1_1
+    100008: DrawCall_2_1_1
+    100010: DrawCall_4_1_1
+    100012: DrawCall_7_1_1
+    100014: Group1
+    100016: Group2
+    100018: Group3
+    100020: Group4
+    100022: Group5
+    100024: Group6
+    100026: Group7
+    100028: Group8
+    100030: Group9
+    100032: Imperial_Jumptrooper_1_1
+    100034: Imperial_Stormtrooper1
+    100036: Mesh1
+    100038: Mesh10
+    100040: Mesh11
+    100042: Mesh12
+    100044: Mesh13
+    100046: Mesh14
+    100048: Mesh2
+    100050: Mesh3
+    100052: Mesh4
+    100054: Mesh5
+    100056: Mesh6
+    100058: Mesh7
+    100060: Mesh8
+    100062: Mesh9
+    100064: //RootNode
+    100066: skp78E1
+    400000: Component_1_1
+    400002: DrawCall10_1_1
+    400004: DrawCall11_1_1
+    400006: DrawCall_1_1_1
+    400008: DrawCall_2_1_1
+    400010: DrawCall_4_1_1
+    400012: DrawCall_7_1_1
+    400014: Group1
+    400016: Group2
+    400018: Group3
+    400020: Group4
+    400022: Group5
+    400024: Group6
+    400026: Group7
+    400028: Group8
+    400030: Group9
+    400032: Imperial_Jumptrooper_1_1
+    400034: Imperial_Stormtrooper1
+    400036: Mesh1
+    400038: Mesh10
+    400040: Mesh11
+    400042: Mesh12
+    400044: Mesh13
+    400046: Mesh14
+    400048: Mesh2
+    400050: Mesh3
+    400052: Mesh4
+    400054: Mesh5
+    400056: Mesh6
+    400058: Mesh7
+    400060: Mesh8
+    400062: Mesh9
+    400064: //RootNode
+    400066: skp78E1
+    2100000: Color_002
+    2100002: FrontColor
+    2100004: Color_D01
+    2100006: Wood_Cherry_Original
+    2100008: _Color_008_2
+    2100010: Testme_Low_p
+    2100012: Color_F15
+    2100014: Testme_Male_
+    2100016: Color_C17
+    2100018: Color_C22
+    2100020: Color_001
+    2100022: M_09___Default2
+    2100024: M_0130_Gainsboro
+    2100026: M_04___Default1
+    2300000: Mesh1
+    2300002: Mesh10
+    2300004: Mesh11
+    2300006: Mesh12
+    2300008: Mesh13
+    2300010: Mesh14
+    2300012: Mesh2
+    2300014: Mesh3
+    2300016: Mesh4
+    2300018: Mesh5
+    2300020: Mesh6
+    2300022: Mesh7
+    2300024: Mesh8
+    2300026: Mesh9
+    3300000: Mesh1
+    3300002: Mesh10
+    3300004: Mesh11
+    3300006: Mesh12
+    3300008: Mesh13
+    3300010: Mesh14
+    3300012: Mesh2
+    3300014: Mesh3
+    3300016: Mesh4
+    3300018: Mesh5
+    3300020: Mesh6
+    3300022: Mesh7
+    3300024: Mesh8
+    3300026: Mesh9
+    4300000: Mesh1
+    4300002: Mesh2
+    4300004: Mesh3
+    4300006: Mesh4
+    4300008: Mesh5
+    4300010: Mesh6
+    4300012: Mesh7
+    4300014: Mesh8
+    4300016: Mesh9
+    4300018: Mesh10
+    4300020: Mesh11
+    4300022: Mesh12
+    4300024: Mesh13
+    4300026: Mesh14
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
