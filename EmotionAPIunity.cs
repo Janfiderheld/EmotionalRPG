@@ -78,7 +78,8 @@ Console.ReadLine();
     static async Task<EmotionEnum> EmotionRequest()
     {
         EmotionEnum e = EmotionEnum.Neutral;
-        string imageFilePath = "C:\\Users\\Alissa\\Pictures\\Camera Roll\\testfoto_ " + counter + ".jpg";
+	string imageFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), "reaktion_0" + counter + ".jpg");
+        // string imageFilePath = "C:\\Users\\Alissa\\Pictures\\Camera Roll\\testfoto_ " + counter + ".jpg";
         VideoCapture capture = new VideoCapture();
         Bitmap image = capture.QueryFrame().Bitmap;
         capture.Dispose();
@@ -574,7 +575,9 @@ Console.ReadLine();
             {
                 int i = 0;
                 // neuen XML-Reader für gegebene Datei erstellen
-                XmlReader xmlReader = XmlReader.Create("C:\\Users\\Alissa\\source\\repos\\Dialoge.xml");
+		// Die Datei liegt im Verzeichnis des Projektes/bin/Debug
+                XmlReader xmlReader = XmlReader.Create(Directory.GetCurrentDirectory() + "\\Dialoge.xml");
+                // XmlReader xmlReader = XmlReader.Create("C:\\Users\\Alissa\\source\\repos\\Dialoge.xml");
                 // Solange in der XML-Datei noch knoten da sind...
                 while (xmlReader.Read())
                 {
