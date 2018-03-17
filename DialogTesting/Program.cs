@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Xml;
 
 namespace DialogTesting
@@ -154,7 +155,9 @@ namespace DialogTesting
             {
                 int i = 0;
                 // neuen XML-Reader für gegebene Datei erstellen
-                XmlReader xmlReader = XmlReader.Create("C:\\Users\\Alissa\\source\\repos\\Dialoge.xml");
+                // Die Datei liegt im Verzeichnis des Projektes/bin/Debug
+                XmlReader xmlReader = XmlReader.Create(Directory.GetCurrentDirectory() + "\\Dialoge.xml");
+                // XmlReader xmlReader = XmlReader.Create("C:\\Users\\Alissa\\source\\repos\\Dialoge.xml");
                 // Solange in der XML-Datei noch knoten da sind...
                 while (xmlReader.Read())
                 {
