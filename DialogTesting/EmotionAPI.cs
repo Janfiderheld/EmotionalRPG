@@ -19,7 +19,7 @@ namespace DialogTesting
         // Replace the subscriptionKey string value with your valid subscription key.
         const string subscriptionKey = "159b938d29714f52a98d6feb0fcc6d72";
 
-        private static int counter = 0;
+        private static int counter = 1;
 
         // Replace or verify the region.
         //
@@ -63,7 +63,8 @@ Console.ReadLine();
         public static async Task<EmotionEnum> EmotionRequest()
         {
             EmotionEnum e = EmotionEnum.Neutral;
-            string imageFilePath = Environment.ExpandEnvironmentVariables("C:\\Users\\%USERPROFILE%\\Pictures\\EmotionalRPG\\reaktion_0" + counter + ".jpg");
+            string imageFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), "reaktion_0" + counter + ".jpg");
+            // string imageFilePath = Environment.ExpandEnvironmentVariables("C:\\Users\\%USERPROFILE%\\Pictures\\EmotionalRPG\\reaktion_0" + counter + ".jpg");
             // string imageFilePath = "C:\\Users\\Alissa\\Pictures\\Camera Roll\\testfoto_ " + counter + ".jpg";
             VideoCapture capture = new VideoCapture();
             Bitmap image = capture.QueryFrame().Bitmap;
