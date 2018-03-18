@@ -3,35 +3,35 @@
 	<Einleitung Text="A long time ago in a galaxy far, far away...ENTEROur Hero, HX-2018, was ordered to repair a broken TIE-Fighter. While working on the broken engine with his helmet off, TM-1337, another Stormtrooper from HX’s unit, enters the room and starts talking to our hero…"/>
 	<Entscheidung1>
 		<E1_Frage Text="Have you heard!? The rebels have taken our main outpost on Camino! The whole 501st squadron is dead!">
-			<E1_Trauer Text="Oh no, that was the squadron of HD-4514, wasn’t it!? Damn, we were together in basic training…">
+			<E1_AntwortTrauer Text="Oh no, that was the squadron of HD-4514, wasn’t it!? Damn, we were together in basic training…">
 				<E1_ReaktionTrauer Text="Oh sorry, I didn’t know that you knew people from that squadron…"/>
-			</E1_Trauer>
-			<E1_Angst Text="Damn, I am going to Camino next week for my first outdoor operation. I didn’t realize how contested this planet is.">
+			</E1_AntwortTrauer>
+			<E1_AntwortAngst Text="Damn, I am going to Camino next week for my first outdoor operation. I didn’t realize how contested this planet is.">
 				<E1_ReaktionAngst Text="Don’t worry, you’ll be fine! I think you’re going to the other side of the planet."/>
-			</E1_Angst>
-			<E1_Wut Text="Damn this rebel scum! I’m going to make them pay for what they have done!">
+			</E1_AntwortAngst>
+			<E1_AntwortWut Text="Damn this rebel scum! I’m going to make them pay for what they have done!">
 				<E1_ReaktionWut Text="Well, what do you expect!? We’re at war!"/>
-			</E1_Wut>
-			<E1_Neutral Text="Oh no, that is sad. Such a waste of good people.">
+			</E1_AntwortWut>
+			<E1_AntwortNeutral Text="Oh no, that is sad. Such a waste of good people.">
 				<E1_ReaktionNeutral Text="You’re so damn right, it’s a shame it had to come to this!"/>
-			</E1_Neutral>			
+			</E1_AntwortNeutral>			
 		</E1_Frage>
 	</Entscheidung1>
 
 	<Entscheidung2>
 		<E2_Frage Text="You know PT-7531? I saw him in a huge fight with our commander on my way here. I think he was in trouble for the broken blaster. Remember, the one that AH-4850 broke last week?">
-			<E2_Wut Text="This is so unfair! We need to stand up for him and tell the commander what really happened.">
+			<E2_AntwortWut Text="This is so unfair! We need to stand up for him and tell the commander what really happened.">
 				<E2_ReaktionWut Text="I had the same idea! Let’s talk with the captain as soon as you finish your repairs."/>
-			</E2_Wut>
-			<E2_Trauer Text="The poor guy! He does not deserve this, we should help him!">
+			</E2_AntwortWut>
+			<E2_AntwortTrauer Text="The poor guy! He does not deserve this, we should help him!">
 				<E2_ReaktionTrauer Text="I had the same idea! Let’s talk with the captain as soon as you finish your repairs."/>
-			</E2_Trauer>
-			<E2_Angst Text="Oh yeah, but AH-4850 is such a bully. I don’t want any trouble.">
+			</E2_AntwortTrauer>
+			<E2_AntwortAngst Text="Oh yeah, but AH-4850 is such a bully. I don’t want any trouble.">
 				<E2_ReaktionAngst Text="Oh okay, I thought you would care about him. I’m a bit surprised…"/>
-			</E2_Angst>
-			<E2_Neutral Text="Honestly, I don’t care what happens to him. He can stand up for himself.">
+			</E2_AntwortAngst>
+			<E2_AntwortNeutral Text="Honestly, I don’t care what happens to him. He can stand up for himself.">
 				<E2_ReaktionNeutral Text="Oh okay, I thought you would care about him. I’m a bit surprised…"/>
-			</E2_Neutral>			
+			</E2_AntwortNeutral>			
 		</E2_Frage>
 	</Entscheidung2>
 
@@ -40,67 +40,67 @@
 		<E3_Frage Text="Well, whatever…Did I mention that I finally met someone?">
 			<E3_Rueckfrage Text="Oh, do I know her?"/>
 			<E3_Antwort Text="I don’t suppose you know HIM. His name is Tatchinga and he is a Wookiee from Kashyyyk."/>
-			<E3_Freude Text="I’m really happy for you, you deserve to be happy!">
+			<E3_AntwortFreude Text="I’m really happy for you, you deserve to be happy!">
 				<E3_ReaktionFreude Text="Thank you, your appreciation really means a lot to me!"/>
-			</E3_Freude>
-			<E3_Ekel Text="Wookiee!? Aren’t they these hairy, giant abominations!?">
+			</E3_AntwortFreude>
+			<E3_AntwortEkel Text="Wookiee!? Aren’t they these hairy, giant abominations!?">
 				<E3_ReaktionEkel Text="Are you f’cking serious!? You’re a dick, never talk to me again!"/>
-			</E3_Ekel>
-			<E3_Neutral Text="Congratulations!">
+			</E3_AntwortEkel>
+			<E3_AntwortNeutral Text="Congratulations!">
 				<E3_ReaktionNeutral Text="Thanks."/>
-			</E3_Neutral>			
+			</E3_AntwortNeutral>			
 		</E3_Frage>
 	</Entscheidung3>
 
 	<Entscheidung4>
 		<E4_Frage Text="Anyways, the main reason why I came here: Are you making progress with that engine? The commander needs you!">
-			<E4_Freude Text="I am nearly finished! Give me twenty more minutes and I’ll be there.">
+			<E4_AntwortFreude Text="I am nearly finished! Give me twenty more minutes and I’ll be there.">
 				<E4_ReaktionFreude Text="Very good! Don’t make the commander wait."/>
-			</E4_Freude>
-			<E4_Wut Text="This piece of galactic garbage is completely broken! I need at least the rest of the day to finish this.">
+			</E4_AntwortFreude>
+			<E4_AntwortWut Text="This piece of galactic garbage is completely broken! I need at least the rest of the day to finish this.">
 				<E4_ReaktionWut Text="How disappointing. But the commander needs to see you, you can continue repairing after that."/>
-			</E4_Wut>
-			<E4_Angst Text="Oh no, I am not finished but I can’t disappoint the commander…I am coming right with you!">
+			</E4_AntwortWut>
+			<E4_AntwortAngst Text="Oh no, I am not finished but I can’t disappoint the commander…I am coming right with you!">
 				<E4_ReaktionAngst Text="Don’t worry, he won’t kill you."/>
-			</E4_Angst>
-			<E4_Neutral Text="Yeah, could be worse. I need about two hours until I’m finished.">
+			</E4_AntwortAngst>
+			<E4_AntwortNeutral Text="Yeah, could be worse. I need about two hours until I’m finished.">
 				<E4_ReaktionNeutral Text="Well, the commander is waiting now, so finish your repairs after talking to him."/>
-			</E4_Neutral>			
+			</E4_AntwortNeutral>			
 		</E4_Frage>
 	</Entscheidung4>
 
 	<!-- Pfad: ST2 ist zufrieden mit dir! -->
 	<Entscheidung5>
 		<E5_Frage Text="Oh man, AH-4850 is such a bad guy! This morning at breakfast, he bragged about sleeping with one of the new slave girls who arrived last week. Can you imagine!?">
-			<E5_Verachtung Text="What kind of person would do such a thing!? He needs to be punished!">
+			<E5_AntwortVerachtung Text="What kind of person would do such a thing!? He needs to be punished!">
 				<E5_ReaktionVerachtung Text="I am totally on your side, we should bring it up when we talk with our commander."/>
-			</E5_Verachtung>
-			<E5_Ekel Text="That is so disgusting, she had no possible chance to get away from him! That poor thing…">
+			</E5_AntwortVerachtung>
+			<E5_AntwortEkel Text="That is so disgusting, she had no possible chance to get away from him! That poor thing…">
 				<E5_ReaktionEkel Text="I know right!? I couldn’t believe my ears this morning."/>
-			</E5_Ekel>
-			<E5_Wut Text="I could kill him right now! We need to get him what he deserves!">
+			</E5_AntwortEkel>
+			<E5_AntwortWut Text="I could kill him right now! We need to get him what he deserves!">
 				<E5_ReaktionWut Text="Wow, I understand you, but killing him isn’t the right way. We need to talk to our commander."/>
-			</E5_Wut>
-			<E5_Neutral Text="I don’t care what happens to the slaves.">
+			</E5_AntwortWut>
+			<E5_AntwortNeutral Text="I don’t care what happens to the slaves.">
 				<E5_ReaktionNeutral Text="Wow, are you serious!? I did not expect you to be so cold, these are people!?"/>
-			</E5_Neutral>			
+			</E5_AntwortNeutral>			
 		</E5_Frage>
 	</Entscheidung5>
 
 	<Entscheidung6>
 		<E6_Frage Text="Hey, uhm, I never talked to anyone about this, but I’m thinking about leaving the empire. Joining the rebels. I am sick of the people we have to work with! We’re supporting a fucking dictatorship!">
-			<E6_Freude Text="I feel exactly the same! I never thought someone else would share my doubts. ST2, believe me, I want to come with when you leave!">
+			<E6_AntwortFreude Text="I feel exactly the same! I never thought someone else would share my doubts. ST2, believe me, I want to come with when you leave!">
 				<E6_ReaktionFreude Text="That’s great! I hoped for that reaction of you. It’s a bit spontaneous, but let’s leave with that TIE-Fighter, once you finish the repairs."/>
-			</E6_Freude>
-			<E6_Ueberraschung Text="Wow, I would have never guessed you could think about that!? You were always this supportive for our cause!? I can’t let you leave!">
+			</E6_AntwortFreude>
+			<E6_AntwortUeberraschung Text="Wow, I would have never guessed you could think about that!? You were always this supportive for our cause!? I can’t let you leave!">
 				<E6_ReaktionUeberraschung Text="Oh, I had hoped you would be more understanding. I’m sorry my friend."/>
-			</E6_Ueberraschung>
-			<E6_Verachtung Text="You rebel scum! I will never let you go through with this!">
+			</E6_AntwortUeberraschung>
+			<E6_AntwortVerachtung Text="You rebel scum! I will never let you go through with this!">
 				<E6_ReaktionVerachtung Text="Damn, you made the wrong choice!"/>
-			</E6_Verachtung>
-			<E6_Neutral Text="Wow, I didn’t think you would do something like this…I won’t come with you but I respect your decision. I won’t stop you.">
+			</E6_AntwortVerachtung>
+			<E6_AntwortNeutral Text="Wow, I didn’t think you would do something like this…I won’t come with you but I respect your decision. I won’t stop you.">
 				<E6_ReaktionNeutral Text="Thank you for your understanding! I hope we never meet again *laughs*"/>
-			</E6_Neutral>			
+			</E6_AntwortNeutral>			
 		</E6_Frage>
 	</Entscheidung6>
 
